@@ -11,7 +11,7 @@
 .logo-wrap > h1{
     font-size: 2rem;
     display: inline;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 .navbar{
@@ -42,6 +42,44 @@
     width: 650px;
 }
 
+.box-little{
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    border: #0a0505 solid 3px;
+    margin-bottom: 5%;
+}
+
+.panel-default{
+    margin: auto;
+    width: 400px;
+    height:  auto;
+    margin-bottom: 5%;
+
+}
+
+#colored{
+    background: #f6ff7e;
+
+}
+
+.child{
+   margin-right: 5%;
+    height: 100px;
+}
+
+#ignore_align{
+    float: left;
+    width: 400px;
+
+}
+
+#alert{
+    float: left;
+    width: 400px;
+
+
+}
 @media (min-width: 651px) {
     .container-fluid,
     .navbar-default{
