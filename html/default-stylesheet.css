@@ -20,6 +20,10 @@
     border: #f0e2e6 solid 2px;
 }
 
+.navbar-header{
+    float: left;
+}
+
 .new{
     float: right;
     line-height: 60px;
@@ -32,9 +36,36 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
+    .container{
+        width: 900px;
+    }
     .container-fluid{
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+
+@media (min-width: 992px){
+    .container{
+        width: 1270px;
+    }
+
+    .container-fluid{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .guide{
+        display: inline;
+    }
+}
+
+@media (min-width: 1200px){
+    .container{
+        width: 1270px;
+    }
+    .container-fluid{
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
