@@ -24,15 +24,28 @@
     float: left;
 }
 
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 30px;
+}
+
 .new{
     float: right;
     line-height: 60px;
     margin-right: 15px;
 }
 
+.container,
+.container-fluid,
+.navbar-default{
+    width: 650px;
+}
+
 @media (min-width: 651px) {
-    .container-fluid{
-        width: 100%;
+    .container-fluid,
+    .navbar-default{
+       width: 100%;
     }
 }
 
