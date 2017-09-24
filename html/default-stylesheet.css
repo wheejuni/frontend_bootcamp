@@ -1,4 +1,97 @@
 @charset "UTF-8";
+
+body{
+    height: auto;
+}
+
+a{
+    color: #0a0505;
+
+}
+
+article.post-wrap{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 60px;
+}
+
+article.post-wrap header{
+    width: 600px;
+    height: 60px;
+    padding: 16px;
+    border-bottom: 1px solid #efefef;
+    color: #262626;
+
+}
+
+article.post-wrap header .user-pic{
+    width: 30px;
+    height: 30px;
+    background-color: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.0975);
+    margin-right: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+article.post-wrap .post-content{
+    padding: 0 16px;
+}
+
+article.post-wrap .post-content .comment-icon{
+    height: 24px;
+    width: 24px;
+    background-image:
+        url("http://hyunjoolee.pythonanywhere.com/static/images/sprites/fef349.png");
+    background-position: -306px -289px;
+    border: none;
+    background-color: #fff;
+    margin: 8px;
+    margin-left: 4px;
+}
+
+article.post-wrap .post-content .like{
+    height: 24px;
+    width: 24px;
+    background-image: url("http://hyunjoolee.pythonanywhere.com/static/images/sprites/fef349.png");
+    border: none;
+    background-color: #fff;
+    margin: 8px 8px 8px 0;
+}
+
+article.post-wrap .post-content .to-like{
+    background-position: -26px -349px;
+}
+
+article.post-wrap .post-content .like-count{
+    font-weight: 600;
+    text-overflow: ellipsis;
+    margin-right: .3em;
+}
+
+article.post-wrap .post-username,
+article.post-wrap .comment-username,
+article.post-wrap .like-count{
+    font-weight: 600;
+    text-overflow: ellipsis;
+    margin-right: .3em;
+}
+
+article.post-wrap .post-content .comment-more{
+    display: block;
+    margin: 5px 0;
+    outline: none;
+    padding: 0;
+    border: none;
+    color: #999;
+    background-color: #fff;
+}
+
+
 .logo{
     width: 45px;
     margin-right: 10px;
@@ -62,10 +155,43 @@
     background: #f6ff7e;
 
 }
-
+.panel-default{
+    height: 400px;
+    width: 400px;
+}
 .child{
    margin-right: 5%;
     height: 100px;
+}
+
+.panel-instagram{
+    width:500px;
+    height: 500px;
+    border: #ddd 1px solid;
+}
+.nametag{
+    border: #ddd solid 1px;
+    margin: 0;
+    padding-left: 5px;
+
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.member-avatar{
+    vertical-align: middle;
+}
+
+.name{
+
+    margin: auto;
+    float: left;
+
+}
+
+.date{
+    float: right;
 }
 
 #ignore_align{
@@ -79,6 +205,27 @@
     width: 400px;
 
 
+}
+
+.member-avatar{
+    border-radius: 90%;
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: auto;
+}
+
+.photobox{
+    border: #c0bdba solid 1px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.photobox-body{
+    border: hidden;
 }
 @media (min-width: 651px) {
     .container-fluid,
