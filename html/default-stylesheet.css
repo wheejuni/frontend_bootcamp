@@ -137,6 +137,7 @@ article.post-wrap .post-content .comment-more{
 
 .box-little{
     margin: auto;
+    padding: 10px;
     width: 400px;
     height: 300px;
     border: #0a0505 solid 3px;
