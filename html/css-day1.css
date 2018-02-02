@@ -1,0 +1,15 @@
+#mainbox {
+    border: 10px green solid;
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+}
+
+#mainbox #smallbox {
+    padding: 10px;
+
+}
+
+#mainbox > span {
+    color: blue;
+}
